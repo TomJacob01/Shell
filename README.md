@@ -1,13 +1,15 @@
 This is a simple command line interpreter written in C. It supports basic command line operations such as executing external programs, piping, and input/output redirection.
-Getting Started
 
 To use the command line interpreter, simply clone this repository and run the make command to build the program. Once the program has been built, run the executable cli and start entering commands.
 
 # shell
 
 $ git clone https://github.com/username/cli.git
+
 $ cd cli
+
 $ make
+
 $ ./cli
 
 # Usage
@@ -23,7 +25,7 @@ To pipe the output of one program into the input of another program, use the | s
 
 # Input redirection
 
-To redirect input or output from/to a file, use the < or > symbols.
+To redirect input or output from/to a file, use the < symbol.
 
 # Concurrent execution
 
