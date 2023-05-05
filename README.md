@@ -1,5 +1,3 @@
-# Shell
-
 This is a simple command line interpreter written in C. It supports basic command line operations such as executing external programs, piping, and input/output redirection.
 Getting Started
 
@@ -17,32 +15,16 @@ $ ./cli
 The command line interpreter supports the following operations:
 Executing external programs
 
-To execute an external program, simply type the name of the program followed by any necessary arguments. For example:
-
-shell
-
-$ ls -al
+To execute an external program, simply type the name of the program followed by any necessary arguments.
 
 # Piping
 
-To pipe the output of one program into the input of another program, use the | symbol. For example:
+To pipe the output of one program into the input of another program, use the | symbol. 
 
-shell
+# Input redirection
 
-$ ls | grep file
-
-Input/output redirection
-
-To redirect input or output from/to a file, use the < or > symbols. For example:
-
-lua
-
-$ sort < input.txt 
+To redirect input or output from/to a file, use the < or > symbols.
 
 # Concurrent execution
 
-To execute a command in the background, add an & symbol at the end of the command. For example:
-
-shell
-
-$ sleep 10
+To execute a command in the background, add an & symbol at the end of the command.
